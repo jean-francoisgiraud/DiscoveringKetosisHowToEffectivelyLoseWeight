@@ -2,7 +2,7 @@ LCHF (Low Carb High Fat) to lose weight. A machine learning study (automatic lea
 =========================================================================================================
 
 ## Requirements
-These programs execute in your Github web page directly. There is no need to install and or configure any programs on you computer.
+You can customise with your data by editing the dataset weight.2015.csv and then by regenerating from your new data-set edited-weight.2015.csv then running the script date-weight.r in this git repository. It requires R and ggplot2.
 
 ## Disclaimer
 The lessons learned below is what worked for me. Your situation may be different. This code is designed to be used on your own data. This is a n=1 experiment it is not statistically representative of any population. This was *not* a scientific experiment, or a "study"; rather, it was a personal journey of experimentation and discovery. But evolution has been hard at work for over 2 billion years shaping the chemistry of all eukaryotes, multi-cellular life and eventually mammals. The Krebs cycle, glucose metabolism, insulin spikes, glycogen in the liver, carnitine, lipase, are as real for you as they are for me. We may be very different in environments in our genes and traits, some are more insulin resistant, for example, but we cannot be too different in our most fundamental metabolic chemistry. The chemistry which drives fat synthesis and break-up. 
