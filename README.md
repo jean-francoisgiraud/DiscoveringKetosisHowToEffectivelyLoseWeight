@@ -1,8 +1,13 @@
 LCHF (Low Carb High Fat) to lose weight. A machine learning study (automatic learning process from data). 
 =========================================================================================================
-## Forked from arielf/weight-loss
+
+## Requirements
+These programs execute in your Github web page directly. There is no need to install and or configure any programs on you computer.
+
 ## Disclaimer
-The lessons learned below is what worked for me. Your situation may be different. This code  is designed to be used on your own data. This was *not* a scientific experiment, or a "study"; rather, it was a personal journey of experimentation and discovery. However... evolution has been hard at work for over 2 billion years shaping the chemistry of all eukaryotes, multi-cellular life and eventually mammals. The Krebs cycle, glucose metabolism, insulin spikes, glycogen in the liver, carnitine, lipase, are as real for you as they are for me. We may be very different in our genes and traits, some are more insulin resistant, for example, but we cannot be too different in our most fundamental metabolic chemistry. The chemistry which drives fat synthesis and break-up. Arielf dataset:
+The lessons learned below is what worked for me. Your situation may be different. This code is designed to be used on your own data. This is a n=1 experiment it is not statistically representative of any population. This was *not* a scientific experiment, or a "study"; rather, it was a personal journey of experimentation and discovery. But evolution has been hard at work for over 2 billion years shaping the chemistry of all eukaryotes, multi-cellular life and eventually mammals. The Krebs cycle, glucose metabolism, insulin spikes, glycogen in the liver, carnitine, lipase, are as real for you as they are for me. We may be very different in environments in our genes and traits, some are more insulin resistant, for example, but we cannot be too different in our most fundamental metabolic chemistry. The chemistry which drives fat synthesis and break-up. 
+
+Arielf dataset:
 ![weight vs time in the past 16 months or so](weight.2015.png  "weight loss progress")
  
 The weight vs time chart uses the arielf dataset (weight vs. time in 2015). My (JFG's) experience was and continues to be very similar, it started in 2013 and is sustained until now (2018). JFG's weights ((2013april 210lbs) (2013may 200lbs) (2013jun 190lbs) (2013jul 180lbs) (2013aug 175lbs) (2013sep 180lbs)... (2014 to 2018 175-180lbs)). The chart was generated from a data-set [`weight.2015.csv`](weight.2015.csv) by the script [`date-weight.r`](date-weight.r) in this git repository.  It requires [`R`](http://r-project.org) and [`ggplot2`](http://ggplot2.org/). The code herein is used to separate signal from noise in the data collected. This separation was critical to help lead me in the right direction. This github repository includes the programming code, [a Q&A section](QandA.md), and links for further reading.  These are the lessons learned (see further for a higher resolution picture).
@@ -11,7 +16,7 @@ The weight vs time chart uses the arielf dataset (weight vs. time in 2015). My (
 <a href="scores.png" target="_blank"><img src="scores.png" width="300"></a>
 
 ## Observations
-Like most with time and stress I've been gaining more and more weight. I peaked in 2013 at 210lbs, over 60 lbs higher than my steady-state weight of my twenties. North America is an area where obesity is an epidemic. Our western typical lifestyle is IMHO the root cause (Fast food is highly available, very cheap compared to most alternatives, most food we buy and eat is heavily processed). "No Fat" and "Low Fat" labels are everywhere on supermarket shelves. Many foods are enriched and sweetened with high-fructose corn-syrup. I realized I need to think for myself. Ignore most "experts" advice. Question widely accepted ideas like the FDA "food pyramid". Start listening to my own body, my own logic and data that I can collect myself and trust. Once I did, the results followed.
+Like most people with time and stress I've been gaining more and more weight. I peaked in 2013 at 210lbs, over 60 lbs higher than my 150 lbs steady-state weight of my twenties. North America is an area where obesity is an epidemic. Our western typical lifestyle is IMHO the root cause (Constant TV ads; Fast food is highly available, very cheap compared to most alternatives, most food we buy and eat is heavily processed). "No Fat" and "Low Fat" labels are everywhere on supermarket shelves. Many foods are enriched and sweetened with high-fructose corn-syrup. I realized I need to think for myself. Ignore most "experts" advice. Question widely accepted ideas like the FDA "food pyramid". Start listening to my own body, my own logic and data that I can collect myself and trust. Once I did, the results followed.
 ## What didn't work
 I tried several times to change my diet. After reading one of Atkins' books, I realized, checked, and accepted the fact that excess carbs are a major factor in gaining weight. But that realization alone has not led to success. My will power, apparently, was insufficient. I would reduce my carb consumption, lose a few pounds (typically ~5 pounds), and then break-down, go back to consuming excess carbs, and gain all these pounds back, and then some. My longest diet stretch lasted just a few months. It was obvious that something was missing in my method. I just had to find it.  I could increase my physical activity, say start training for a mini-marathon, but that's not something I felt comfortable with. I realized early on that I need to adopt a lifestyle that not just reduces carbs, or add exercise, but is also sustainable and even enjoyable so it can turn into a painless routine. Something that: I could do for years. Never feel the urge to break habits. Is not hard, or unpleasant for to do.
 ## Insights
@@ -103,6 +108,8 @@ And when we push even further, and cut carbs to *really* low levels, we may reac
 - Eat eggs.  They are a wonderful combo of fat and protein with no carbs at all.  I read an interview with a [Japanese woman who reached 114 years](Longevity.md) and one of her secrets was to eat eggs daily.  My favorite food is a scrambled egg with grilled onions (onions are a bit high on carbs, but too tasty to give up) and olives.
 - Eat slower, and chew longer... don't swallow just yet! Humans, just like dogs, tend to swallow too soon. Stop eating when you feel full. There's about 20 min delay before your brain registers that you are full so don't over-eat.
 ***
+
+## This study was Forked from arielf/weight-loss in February of 2018.
 
 ## Further reading:
 - [The Krebs (aka Citric acid) cycle](https://en.wikipedia.org/wiki/Citric_acid_cycle)
