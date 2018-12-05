@@ -81,17 +81,17 @@ Despite the noisy & insufficient data, and the inaccuracies in weighting, the ma
 The 'stayhome' lifestlye, which fell mostly on weekends, may have been a red-herring: I slept longer when I didn't have to commute to work, OTOH: my diet on stay-home days may have been different. It took me a while to figure out the sleep part. *When we sleep we don't eat*. It is that simple.  Moreover: we tend to binge and snack while not particularly hungry, but we never do it during sleep.
 Our sleeping time is our longest daily fasting time. Please note that my explanations of the effects may not in fact be accurate or deeply scientific. The goal of all this was incremental discovery: experiment, check effect, rinse, repeat.
 
-## Further progress
+## Further progress and LL: IF (intermitent fasting works)
 You may note that in the top (date vs. weight) chart there's a notable acceleration in the rate of weight-loss.  The cause was deeper insights and better ability to sustain the diet the more I understood the problem.
-***Extending the fasting time*** was one major accelerator of weight-loss rate. I did that by:
-> - Skipping breakfast and
-> - Stop eating earlier in the evening before going to bed.
-This gave me 14-16 hours of fasting each day. Rather than the more typical 10-12 hours/day of fasting.
-The 2nd accelerator was ***consuming fatty stuff*** (instead of carbs) in order to feel full.
+*** IF (intermitent fasting) and extending the fasting time*** was one major accelerator of weight-loss rate. I did that by:  
+- Skipping breakfast and lunch and  
+- Stopping eating earlier in the evening before going to bed.  
+This gave me 14-16 hours of fasting each day. Rather than the more typical 10-12 hours/day of fasting.  
+The 2nd accelerator was ***consuming fatty stuff*** (instead of carbs) in order to feel full.  
 The 3rd accelerator was understanding the concepts of [Glycemic index](https://en.wikipedia.org/wiki/Glycemic_index) and 
 [***Glycemic Load***](https://en.wikipedia.org/wiki/Glycemic_load), and shifting whatever I chose to eat towards lower Glycemic loads.
-I now believe and hope that I can maintain my weight at a healty level between 165 and 175lbs.
-If I can continue at the present rate (it took 1 year to completely reverse the damage of the past ~20 years). 
+I now believe and hope that I can maintain my weight at a healty level between 165 and 175lbs.  
+If I can continue at the present rate (it took 1 year to completely reverse the damage of the past ~20 years).  
 It is important to stress that I also *feel much better the more weight I lose*. As a welcome side-effect, the few borderline/high levels in my blood tests, have moved significantly towards normal averages, during the period I lost weight.
 
 ### What was my data and clear improvement in health saying?
