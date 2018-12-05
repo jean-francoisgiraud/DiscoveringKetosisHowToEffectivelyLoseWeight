@@ -42,7 +42,8 @@ The (optional) numerical-weight following `:`, expresses higher/lower quantities
 
 Then I wrote [a script](lifestyle-csv2vw) to convert this file to [vowpal-wabbit](https://github.com/JohnLangford/vowpal_wabbit/wiki) training-set regression format. In the converted train-set the label (target feature) is the change in weight (delta) in the past 24 hours, and the input features are what I've done or ate in the ~24 hours leading to this delta -- a straight copy of the 3rd column.
 I was not dieting at that time. Just collecting data. The machine learning process error-convergence after partly sorting the lines descending, by `abs(delta)` to smooth it out and try to amplify very weak signals from the data, and 4-passes over the data, looks like this:
-![error convergence (after partial descending sort by delta)](vw-convergence.png  "loss convergence in 4 data passes")
+![error convergence (after partial descending sort by delta)](vw-convergence.png  "loss convergence in 4 data passes")  
+
 You can reproduce my work by compiling your own data-file, installing all prerequisites, and running `make` in this directory.  I wrote a [HOWTO file with more detailed instructions](HOWTO.md). Please open an issue, if anything doesn't work for you.
 When you type `make` in this directory -- some magic happens. Here's how a typical result looks like.
 
