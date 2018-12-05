@@ -21,9 +21,9 @@ Like most people with time and stress I've been gaining more and more weight. I 
 I tried several times to change my diet. After reading one of Atkins' books, I realized, checked, and accepted the fact that excess carbs are a major factor in gaining weight. But that realization alone has not led to success. My will power, apparently, was insufficient. I would reduce my carb consumption, lose a few pounds (typically ~5 pounds), and then break-down, go back to consuming excess carbs, and gain all these pounds back, and then some. My longest diet stretch lasted just a few months. It was obvious that something was missing in my method. I just had to find it.  I could increase my physical activity, say start training for a mini-marathon, but that's not something I felt comfortable with. I realized early on that I need to adopt a lifestyle that not just reduces carbs, or add exercise, but is also sustainable and even enjoyable so it can turn into a painless routine. Something that: I could do for years. Never feel the urge to break habits. Is not hard, or unpleasant for to do.
 ## Insights
 Early in the process I figured I could use [machine learning](https://en.wikipedia.org/wiki/Machine_learning) to identify the factors that made me gain or lose weight. I used a simple method: every morning I would weigh myself, and record both the new weights and whatever I did in the past ~24 hours, not just the food I ate, but also whether I exercised, slept too little or too much, etc.
-The file I kept was fairly simple. A CSV with 3 columns:
-> *Date*, *MorningWeight*, *Yesterday's lifestyle/food/actions*
-The last column is a arbitrary-length list of *`word[:weight]`* items.
+The file I kept was fairly simple. A CSV with 3 columns:  
+*Date*, *MorningWeight*, *Yesterday's lifestyle/food/actions*  
+The last column is a arbitrary-length list of *`word[:weight]`* items.  
 The (optional) numerical-weight following `:`, expresses higher/lower quantities. The default weight, when missing is 1:
  
     #
@@ -73,18 +73,21 @@ The positive (top) relative-score values are life-style choices that make you **
 ##### And here's a variable-importance chart made from a similar data-set:
 <a href="scores.png" target="_blank"><img src="scores.png" width="900"></a>
 Disclaimer: please don't read too much into the particulars of this data. Working with this particular data set, was pretty challenging, since: The number of original data-points (a bit over 100 days) may be too small to establish enough significance. Typical daily changes in body weight are very small, often ~0.1 lb. My scales are not accurate: you may note that my data has 0.2 pound resolution. This is not ideal. Getting scales with 0.1 pound resolution is highly recommended. You may also note that the loss-convergence chart hits a hard floor at ~0.2 even when you do multiple-passes over the data (overfit the training-set) for a similar reason. Items that make you lose and gain weight, often appear together on the same line so they cancel each other. This throws the automatic learning process off-course.  So I focused mostly on the extremes (start and end) of the list as presented above, and just used the hints as general guidance for further study, experimentation, and action.
-Despite the noisy & insufficient data, and the inaccuracies in weighting, the machine-learning experiments made 4 facts pretty clear, pretty early:
+Despite the noisy & insufficient data, and the inaccuracies in weighting, the machine-learning experiments made these facts pretty clear, pretty early:
 - Sleeping longer consistently appeared as *the* #1 factor in losing weight.
 - Lack of sleep did the opposite: too little sleep lead to weight gains.
 - Carbs made me gain weight. The worst were high-starch and sugary foods.
 - Fatty and oily foods tended to do the opposite: they were positively correlated with weight-loss.
+- IF (Intermitent Fasting) positively correlated with weight-loss.
+- Avoidance of food advertisments (specially tv ads) and socialising positively correlated with weight-loss.
+
 The 'stayhome' lifestlye, which fell mostly on weekends, may have been a red-herring: I slept longer when I didn't have to commute to work, OTOH: my diet on stay-home days may have been different. It took me a while to figure out the sleep part. *When we sleep we don't eat*. It is that simple.  Moreover: we tend to binge and snack while not particularly hungry, but we never do it during sleep.
 Our sleeping time is our longest daily fasting time. Please note that my explanations of the effects may not in fact be accurate or deeply scientific. The goal of all this was incremental discovery: experiment, check effect, rinse, repeat.
 
 ## Further progress and LL: IF (intermitent fasting works)
-You may note that in the top (date vs. weight) chart there's a notable acceleration in the rate of weight-loss.  The cause was deeper insights and better ability to sustain the diet the more I understood the problem.
-*** IF (intermitent fasting) and extending the fasting time*** was one major accelerator of weight-loss rate. I did that by:  
-- Skipping breakfast and lunch and  
+You may note that in the top (date vs. weight) chart there's a notable acceleration in the rate of weight-loss.  The cause was deeper insights and better ability to sustain the diet (and fasting) the more I understood the problem.
+*** IF (Intermitent Fasting) and extending the fasting time*** was one major accelerator of weight-loss rate. I did that by:  
+- Skipping breakfast and lunch (this also saves a lot of time and logisitical complications) and  
 - Stopping eating earlier in the evening before going to bed.  
 This gave me 14-16 hours of fasting each day. Rather than the more typical 10-12 hours/day of fasting.  
 The 2nd accelerator was ***consuming fatty stuff*** (instead of carbs) in order to feel full.  
