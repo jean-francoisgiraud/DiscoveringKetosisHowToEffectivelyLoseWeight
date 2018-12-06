@@ -1,8 +1,5 @@
-LCHF (Low Carb High Fat) to lose weight. A machine learning study (automatic learning process from data). 
-=========================================================================================================
-
-## Requirements
-You can customise with your data by editing the dataset weight.2015.csv and then by regenerating from your new data-set edited-weight.2015.csv then running the script date-weight.r in this git repository. It requires R and ggplot2.
+LCHF (Low Carb High Fat) and IF (intermittent fasting) to lose weight. A machine learning study (automatic learning process from data). 
+======================================================================================================================================
 
 ## Disclaimer
 The lessons learned below is what worked for me. Your situation may be different. This code is designed to be used on your own data. This is a n=1 experiment it is not statistically representative of any population. This was *not* a scientific experiment, or a "study"; rather, it was a personal journey of experimentation and discovery. But evolution has been hard at work for over 2 billion years shaping the chemistry of all eukaryotes, multi-cellular life and eventually mammals. The Krebs cycle, glucose metabolism, insulin spikes, glycogen in the liver, carnitine, lipase, are as real for you as they are for me. We may be very different in environments in our genes and traits, some are more insulin resistant, for example, but we cannot be too different in our most fundamental metabolic chemistry. The chemistry which drives fat synthesis and break-up. 
@@ -15,8 +12,13 @@ The weight vs time chart uses the arielf dataset (weight vs. time in 2015). My (
 
 <a href="scores.png" target="_blank"><img src="scores.png" width="300"></a>
 
+## Requirements
+You can customise with your data by editing the dataset weight.2015.csv and then by regenerating from your new data-set edited-weight.2015.csv then running the script date-weight.r in this git repository. It requires R and ggplot2.  
+Another option is to statistically analyse the data (Anova, correlation, regression, histogram or pareto) with spreadsheets or statistical programs.  
+
 ## Observations
 Like most people with time and stress I've been gaining more and more weight. I peaked in 2013 at 210lbs, over 60 lbs higher than my 150 lbs steady-state weight of my twenties. North America is an area where obesity is an epidemic. Our western typical lifestyle is IMHO the root cause (Constant TV ads; Fast food is highly available, very cheap compared to most alternatives, most food we buy and eat is heavily processed). "No Fat" and "Low Fat" labels are everywhere on supermarket shelves. Many foods are enriched and sweetened with high-fructose corn-syrup. I realized I need to think for myself. Ignore most "experts" advice. Question widely accepted ideas like the FDA "food pyramid". Start listening to my own body, my own logic and data that I can collect myself and trust. Once I did, the results followed.
+
 ## What didn't work
 I tried several times to change my diet. After reading one of Atkins' books, I realized, checked, and accepted the fact that excess carbs are a major factor in gaining weight. But that realization alone has not led to success. My will power, apparently, was insufficient. I would reduce my carb consumption, lose a few pounds (typically ~5 pounds), and then break-down, go back to consuming excess carbs, and gain all these pounds back, and then some. My longest diet stretch lasted just a few months. It was obvious that something was missing in my method. I just had to find it.  I could increase my physical activity, say start training for a mini-marathon, but that's not something I felt comfortable with. I realized early on that I need to adopt a lifestyle that not just reduces carbs, or add exercise, but is also sustainable and even enjoyable so it can turn into a painless routine. Something that: I could do for years. Never feel the urge to break habits. Is not hard, or unpleasant for to do.
 ## Insights
@@ -146,7 +148,7 @@ A nice 7:41 minute video of James McCarter in Quantified Self (an eye opener for
 [Shyal Beardsley](http://shyal.com) has built a starter front-end for this: ***[weightbrains.com](http://weightbrains.com)***
 (Note and fair warning: this is a prototype, experimental, work in progress)
 
-## Credits: This is a fork from the github arielf/weight-loss (I edited his original work to fit my data)
+## Credits: This is a fork from the github arielf/weight-loss (I edited his original work to fit my data observations experiences)
 ## Acknowledgements
 Big thanks to the following people for contributing to this project in myriad ways,
 comments, references, corrections, etc.
