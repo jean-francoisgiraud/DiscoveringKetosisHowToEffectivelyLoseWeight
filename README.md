@@ -21,6 +21,15 @@ Like most people with time and stress I've been gaining more and more weight. I 
 
 ## What didn't work
 I tried several times to change my diet. After reading one of Atkins' books, I realized, checked, and accepted the fact that excess carbs are a major factor in gaining weight. But that realization alone has not led to success. My will power, apparently, was insufficient. I would reduce my carb consumption, lose a few pounds (typically ~5 pounds), and then break-down, go back to consuming excess carbs, and gain all these pounds back, and then some. My longest diet stretch lasted just a few months. It was obvious that something was missing in my method. I just had to find it.  I could increase my physical activity, say start training for a mini-marathon, but that's not something I felt comfortable with. I realized early on that I need to adopt a lifestyle that not just reduces carbs, or add exercise, but is also sustainable and even enjoyable so it can turn into a painless routine. Something that: I could do for years. Never feel the urge to break habits. Is not hard, or unpleasant for to do.
+
+##  Sitting Disease; Sedentary Lifestyle; LLs KBs; lipoprotein lipase determines fatness more than diet and exercise; Standing Desks
+TLDNR: Understanding the enzyme lipoprotein lipase is the key.  
+The most important differences (in order of importance) between people of average weight and overweigh people are: 1- The amount of time they are seated. 2- Their diet and exercise. The reason is because of the enzyme lipoprotein lipase found in the cells that line blood vessels of muscles and in fatty tissue, this enzyme is essential for the breakdown of fat. The more fat can be burned the more energy we have and the better we feel, this is why active lifestyles are crirical. 
+After 1 hour of sitting lipoprotein lipase decreases by up to 90%. Standing instead of sitting also increases heart rate and energy consumptionnergy and muscles will  burn more fat and you will be more likely lose fat. To combat sitting's harmful effects we must sit less, not exercise more. A person who exercises everyday but still sits up to 15 hours per day is still at risk for the same health problems as someone who does not exercise at all.  
+My personal observations:  
+I have much less appetite and more energy (for working and exercising) when sitting less than 2 hours per day and never more than 30 minutes at a time. Maybe because more fat is released due to higher levels of lipoprotein lipase. When sitting too much I get hungry and angry. Another benefit of standing desks is the removal of the constraints of sitting. It is much easier to stretch move and exercise while standing rather than sitting and the motivation and need to do so is much higher.
+At first I made a DIY standing desk and used it from 5 am to 15 pm and then spent about 3 hours sitting on the office chair at maximum height using the same desk configuration. That day I also ran 1 hour that day and did some muscle exercises. That night I slept very well and non-stop from 7 pm to 4 am (9 hours). I had some sore feet despite standing on a soft plastic mat on a carpet. After a week I was able to stand all day for more than 12 hours per day without any issues or having to sit. 
+
 ## Insights
 Early in the process I figured I could use [machine learning](https://en.wikipedia.org/wiki/Machine_learning) to identify the factors that made me gain or lose weight. I used a simple method: every morning I would weigh myself, and record both the new weights and whatever I did in the past ~24 hours, not just the food I ate, but also whether I exercised, slept too little or too much, etc.
 The file I kept was fairly simple. A CSV with 3 columns:  
@@ -115,7 +124,7 @@ And when we push even further, and cut carbs to *really* low levels, we may reac
 - Eat slower, and chew longer... don't swallow just yet! Humans, just like dogs, tend to swallow too soon. Stop eating when you feel full. There's about 20 min delay before your brain registers that you are full so don't over-eat.
 ***
 
-## This study was Forked from arielf/weight-loss in February of 2018.
+## This study was Forked from arielf/weight-loss in February of 2018. Then it was customised based on my personal research and insights mainly on the maximisation of the enzyme lipoprotein lipase.
 
 ## Further reading:
 - [The Krebs (aka Citric acid) cycle](https://en.wikipedia.org/wiki/Citric_acid_cycle)
